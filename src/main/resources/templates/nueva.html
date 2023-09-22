@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div th:insert="fragments/nav"></div>
+
+<form action="/nuevaOferta" method="post">
+    <input name="titulo">
+    <input name="descripcion">
+    <button>Enviar</button>
+</form>
+<div th:insert="fragments/footer"></div>
+
+</body>
+</html>
